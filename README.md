@@ -70,5 +70,3 @@
     - Auto-tune thresholds via adaptive profiles
 
     ---
-
-"""
