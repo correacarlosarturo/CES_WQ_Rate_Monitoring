@@ -37,7 +37,7 @@
     SSH_PROXY_KEY_PASSPHRASE=yourPassphraseIfAny
 
     SSH_CES_HOSTNAME=esa1.test.iphmx.com
-    SSH_CES_USER=dmccabej
+    SSH_CES_USER=yourCESuser
     SSH_CES_PASS=yourCESpassword
     ```
 
