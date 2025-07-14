@@ -71,9 +71,9 @@ SSH_CES_PASS=yourCESpassword
 
 ## 🚦 Verdict Logic
 
-- **STUCK** → No output, In keeps growing
-- **SLOW** → In >> Out, queue is flooding
-- **HEALTHY** → In and Out are balanced
+- 🚨 **STUCK** → No output, In keeps growing
+- ⚠️ **SLOW** → In >> Out, queue is flooding
+- ✅ **HEALTHY** → In and Out are balanced
 
 ## 🚀 Future Ideas
 
