@@ -5,6 +5,28 @@
 This Python tool connects to a Cisco CES device through a secure proxy SSH tunnel, runs live queue monitoring commands,
 parses the results, and returns a verdict (STUCK, SLOW, HEALTHY) based on output behavior — all in a fully cross-platform way.
 
+## ✅ Requirements
+
+    To run this script, you will need the following:
+
+    ### 🔧 Python Modules
+
+    Install dependencies using pip:
+
+    ```bash
+    pip install paramiko python-dotenv
+    ```
+
+    ### 🔐 SSH Access to Cisco CES
+
+    You need authorized SSH access to the CES system through the proxy host defined in your environment.
+    To set this up, follow the official Cisco documentation:
+    👉 [Cisco CES SSH Access Guide](https://www.cisco.com/c/en/us/support/docs/security/cloud-email-security/214281-accessing-the-command-line-interface-cl.html)
+
+    You'll need:
+    - Public/private SSH key pair
+    - CES username/password used to access the CLI (same as your WebUI login)
+
 ## 📁 Project Structure
 
 ```
