@@ -5,15 +5,6 @@
 This Python tool connects to a Cisco CES device through a secure proxy SSH tunnel, runs live queue monitoring commands,
 parses the results, and returns a verdict (STUCK, SLOW, HEALTHY) based on output behavior — all in a fully cross-platform way.
 
-## 🔄 Refactor Highlights
-
-- ✅ **No external `ssh` command** — everything is done using pure Paramiko
-- ✅ **Single script works on Windows, macOS, Linux**
-- ✅ **Graceful termination of CES commands using `Ctrl+C`**
-- ✅ **CLI override of `.env` settings using argparse**
-- ✅ **Environment-based secure credentials handling**
-- ✅ **Modular codebase for easy scaling**
-
 ## 📁 Project Structure
 
 ```
@@ -65,8 +56,5 @@ SSH_CES_PASS=yourCESpassword
 ## 🚀 Future Ideas
 
 - Webhook/email notifier on bad verdicts
-- Graphical TUI using `rich`
-- Store verdict history in SQLite or JSON
-- Auto-tune thresholds via adaptive profiles
 
 ---
