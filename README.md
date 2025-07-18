@@ -7,23 +7,23 @@ parses the results, and returns a verdict (STUCK, SLOW, HEALTHY) based on output
 
 ## ✅ Requirements
 
-    To run this script, you will need the following:
+To run this script, you will need the following:
 
-    ### 🔧 Python Modules
+### 🔧 Python Modules
 
-    Install dependencies using pip:
+Install dependencies using pip:
 
-    ```bash
-    pip install paramiko python-dotenv
-    ```
+```bash
+pip install paramiko python-dotenv
+```
 
-    ### 🔐 SSH Access to Cisco CES
+### 🔐 SSH Access to Cisco CES
 
-    You need authorized SSH access to the CES system through the proxy host defined in your environment.
-    To set this up, follow the official Cisco documentation:
-    👉 [Cisco CES SSH Access Guide](https://www.cisco.com/c/en/us/support/docs/security/cloud-email-security/214281-accessing-the-command-line-interface-cl.html)
+You need authorized SSH access to the CES system through the proxy host defined in your environment.
+To set this up, follow the official Cisco documentation:
+👉 [Cisco CES SSH Access Guide](https://www.cisco.com/c/en/us/support/docs/security/cloud-email-security/214281-accessing-the-command-line-interface-cl.html)
 
-    You'll need:
+You'll need:
     - Public/private SSH key pair
     - CES username/password used to access the CLI (same as your WebUI login)
 
