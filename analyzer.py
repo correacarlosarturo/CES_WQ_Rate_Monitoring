@@ -1,4 +1,4 @@
-def analyze_samples(samples, slow_threshold=100, min_required=5):
+def analyze_samples(samples, slow_threshold=50, min_required=5):
     """
     Analyzes queue behavior based on samples collected.
     Returns one of: STUCK, SLOW, HEALTHY, or INSUFFICIENT DATA
